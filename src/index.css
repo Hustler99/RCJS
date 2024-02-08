@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/*  Navbar start */
+.navbar {
+  background-color: #2c3e50;
+  height: 105px;
+}
+.navbar .bnm {
+  color: white;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.nav-link.active {
+  color: rgb(255, 255, 255) !important;
+  background-color: #1abc9c;
+  border: 2px solid #1abc9c !important;
+  border-radius: 8px;
+}
+.navbar .lord {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.nav-link:hover{
+  color: white !important;
+}
+/* Navbar End */
+/* Main Home Start */
+.cust {
+  background-color: #1abc9c;
+  height: 85vh;
+}
+.main-home h2 {
+  font-weight: 700;
+  color: white;
+  font-size: 40px;
+}
+.main-home img {
+  width: 290px;
+}
+.star {
+  width: 70px;
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+/* Main Home End */
+/* Super Footer START */
+.superfooter {
+  height: 30vh;
+  background-color: #2c3e50;
+  color: white;
+}
+.icon {
+  font-size: 18px;
+  padding: 10px;
+  border: 2px solid white;
+  margin: 4px;
+  border-radius: 50%;
+}
+/* Super Footer End */
+/* BABY FOOTER START */
+
+.babyfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: #1a252f;
+  color: white;
+  text-align: center;
+}
+
+.babyfooter p {
+  margin: 0; /* Remove default margin */
+}
+
+/* BABY FOOTER END */
+/* About Start */
+.about-div {
+  background-color: #1abc9c;
+  height: 85vh;
+}
+.about-div h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.about-div p {
+  text-align: left;
+}
+/* About End */
+/* Port Start */
+
+.port-title h2 {
+  color: #2c3e50;
+  font-size: 40px;
+  font-weight: 700;
+}
+.star1,
+.star2 {
+  width: 70px;
+  height: 4px;
+  background-color: #2c3e50;
+  display: inline-block;
+  margin-bottom: 2px;
+}
+.parent-port {
+  height: 90vh;
+}
+.img {
+  position: relative;
+  cursor: pointer;
+}
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #1abc9cce;
+  left: 0;
+  right: 0;
+  height: 100%;
+  transform: translateY(260px);
+  transition: all 2s;
+  display: none;
+}
+.layer2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+}
+.img:hover .layer {
+  transform: translateY(0);
+  display: block;
+}
+.layer212 {
+  background-color: rgba(58, 58, 58, 0.592);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.box {
+  width: 400px;
+  height: 350px;
+  background-image: url("./imgs/poert1.png") ;
+  background-size: cover;
+  background-position: center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+/* Port End */
+.email {
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+button{
+  background-color: #1abc9c !important;
+  color: white !important;
+}
+input {
+  background-color: white !important;
+  border: none !important;
+  filter: drop-shadow(0px 1px 0px #dadada);
+
+}
+.form-control:focus{
+  box-shadow: none !important;
+}
